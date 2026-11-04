@@ -10,7 +10,12 @@ from neo4j import GraphDatabase
 
 app = FastAPI(title="Student Management API")
 
+# from fastapi import FastAPI 
+# app = FastAPI() 
 
+# @app.get("/")
+# def home():
+#     return {"message":"fastAPI is running"}
 # --------------------------------------------------
 # 2. Neo4j connection
 # --------------------------------------------------
